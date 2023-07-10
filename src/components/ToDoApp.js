@@ -3,9 +3,10 @@ import TodosLogic from './ToDoLogics';
 
 const TodoApp = () => {
     return (
-      <div>
-        <h1 className="heading">To Do List</h1>
+      <div className="wrapper">
+        <div className="todos">
         <TodosLogic />
+        </div>
       </div>
     );
   };
