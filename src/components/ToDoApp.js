@@ -1,10 +1,11 @@
 import React from 'react';
+import TodosLogic from './ToDoLogics';
 
 const TodoApp = () => {
     return (
       <div>
-        <h1 class="heading">To Do List</h1>
-        <p>I am in a React Component!</p>
+        <h1 className="heading">To Do List</h1>
+        <TodosLogic />
       </div>
     );
   };
